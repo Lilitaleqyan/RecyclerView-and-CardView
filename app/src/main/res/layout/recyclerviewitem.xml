@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:id="@+id/cardview"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="4dp">
+<RelativeLayout
+   android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="0dp"
+
+        />
+    <TextView
+        android:id="@+id/textview"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heloo"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/image1"/>
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_below="@id/textview"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heloo222"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/image1"/>
+
+
+</RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
